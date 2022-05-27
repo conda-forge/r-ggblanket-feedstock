@@ -1,4 +1,4 @@
-{% set version = '1.0.0' %}
+{% set version = "1.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggblanket_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggblanket/ggblanket_{{ version }}.tar.gz
-  sha256: fec5eb853df7eefb3e014839176f68e07d7c603a9f2e2c9eb76b3c0688408c0b
+  sha256: db86b7e9b51614bdb85e08e6e3f409c2a75bfa49a72d7d022c978092b3afa397
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -61,8 +61,7 @@ test:
 about:
   home: https://github.com/davidhodge931/ggblanket/, https://davidhodge931.github.io/ggblanket/
   license: MIT
-  summary: Wrapper functions around the amazing 'ggplot2' package with the objective to make
-    beautiful 'ggplot2' visualisation simpler.
+  summary: Wrapper functions around the amazing 'ggplot2' package with the objective to make beautiful 'ggplot2' visualisation simpler.
   license_family: MIT
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
