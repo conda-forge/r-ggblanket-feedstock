@@ -29,12 +29,13 @@ requirements:
     - r-dplyr
     - r-forcats
     - r-ggplot2
+    - r-hms
     - r-lubridate
     - r-magrittr
+    - r-purrr
     - r-rlang
     - r-scales
     - r-snakecase
-    - r-stringr
     - r-tidyr
     - r-tidyselect
     - r-viridis
@@ -43,12 +44,13 @@ requirements:
     - r-dplyr
     - r-forcats
     - r-ggplot2
+    - r-hms
     - r-lubridate
     - r-magrittr
+    - r-purrr
     - r-rlang
     - r-scales
     - r-snakecase
-    - r-stringr
     - r-tidyr
     - r-tidyselect
     - r-viridis
