@@ -7,7 +7,7 @@ Home: https://github.com/davidhodge931/ggblanket/, https://davidhodge931.github.
 
 Package license: MIT
 
-Summary: Wrapper functions around the amazing 'ggplot2' package with the objective to make beautiful 'ggplot2' visualisation simpler.
+Summary: Simplify 'ggplot2' visualisation with 'ggblanket' wrapper functions.
 
 Current build status
 ====================
