@@ -1,4 +1,4 @@
-{% set version = "9.1.0" %}
+{% set version = "9.1.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggblanket_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggblanket/ggblanket_{{ version }}.tar.gz
-  sha256: 2c426c23217fe228dd89bdfa49dc3b9b4571dcef4a5a093caa60f78a58fcdb4e
+  sha256: 1e1e892c49004b6a5103db313e28ff6394c50d20b7a715a56b99506ffa34cbda
 
 build:
   merge_build_host: true  # [win]
