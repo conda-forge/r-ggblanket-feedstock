@@ -1,4 +1,4 @@
-{% set version = "12.3.0" %}
+{% set version = "12.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggblanket_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggblanket/ggblanket_{{ version }}.tar.gz
-  sha256: e74c74f1600561d6af2bd7235675b47ef84473fd88f1d2bf4f2b708fd84b426e
+  sha256: 8273b09bc27e73943ab353368e83258e4a150f0b9017507270f4056a8cea2ef4
 
 build:
   number: 0
