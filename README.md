@@ -3,11 +3,13 @@ About r-ggblanket-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggblanket-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/davidhodge931/ggblanket/, https://davidhodge931.github.io/ggblanket/
+Home: https://davidhodge931.github.io/ggblanket/
 
 Package license: MIT
 
-Summary: Simplify 'ggplot2' visualisation with 'ggblanket' wrapper functions.
+Summary: Wrapper 'ggplot2' functions for publication-quality visualisation. Aligned with 'ggplot2' and 'tidyverse'. Covers much of what 'ggplot2' does.
+
+Development: https://github.com/davidhodge931/ggblanket/
 
 Current build status
 ====================
